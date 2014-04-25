@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<?php
+	
+	$dbconn = pg_connect("host=ec2-54-204-31-13.compute-1.amazonaws.com port=5432 dbname=d9ipn5j6rrjng user=khzqchnyepqysb password=m4jUfdYA6Cta9A5LssQ_L9YHFE sslmode=require options='--client_encoding=UTF8'") or die('Could not connect: ' . pg_last_error());
+	
+	
+	?>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <style type="text/css">
       html { height: 100% }
